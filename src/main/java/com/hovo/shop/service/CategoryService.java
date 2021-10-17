@@ -54,6 +54,7 @@ public class CategoryService {
                 .orElseThrow(() -> new ResourceNotFoundException("Category not found for this id :: " + categoryId));
 
         category.setName(categoryDetails.getName());
+        category.setParentCategory(categoryDetails.getParentCategory());
         return categoryRepository.save(category);
     }
 
