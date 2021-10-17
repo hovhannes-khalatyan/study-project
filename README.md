@@ -14,3 +14,6 @@ have ability to get full category path for the products.
 #### • Your approach toward the problem is also important for us.
 #### • There will be provided also data set for Products and Categories to fill DB.
 #### • Please push the code to GitHub and share the link with us.
+
+#Swagger Link
+## http://localhost:8081/swagger-ui.html
